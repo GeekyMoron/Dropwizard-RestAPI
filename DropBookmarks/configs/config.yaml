@@ -1,0 +1,14 @@
+# add fields with exactly same name in configuration file
+# dropwizard have multiple parameters all of which could be changed through configuration file and new parameters can also be added
+password: 12345678
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 7001
+
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  user: root
+  password: Anand@5204
+  url: "jdbc:mysql://localhost:3306/DropBookmarks"
